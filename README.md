@@ -112,3 +112,5 @@ We use Vercel KV for caching, mainly for the vault's calculated APY.
 4. Push any changes to the cronjob schedule/API routes to the production branch to ensure the changes are in effect.
 
 _Ensure all environment variables are reflected on your local machine and in Vercel._
+
+test
