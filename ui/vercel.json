@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/cron/vaults/backfill-vault-depositor-records",
-      "schedule": "* * * * *"
+      "schedule": "0 * * * *"
     },
     {
       "path": "/api/cron/vaults/vault-snapshots",
