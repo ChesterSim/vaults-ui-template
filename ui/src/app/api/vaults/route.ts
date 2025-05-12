@@ -6,5 +6,6 @@ export const dynamic = "force-dynamic";
 
 export async function GET() {
   const apyReturnsData = await kv.hgetall(REDIS_KEYS.periodApys);
+  console.log("🚀 ~ GET ~ apyReturnsData:", apyReturnsData)
   return NextResponse.json(apyReturnsData);
 }
